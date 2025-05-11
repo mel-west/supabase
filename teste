@@ -1,0 +1,14 @@
+-- Criando a tabela
+CREATE TABLE usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    idade INTEGER NOT NULL
+);
+
+-- Inserindo alguns dados
+INSERT INTO usuarios (nome, idade) VALUES ('Ricardo', 30);
+INSERT INTO usuarios (nome, idade) VALUES ('Ana', 25);
+INSERT INTO usuarios (nome, idade) VALUES ('Carlos', 40);
+
+-- Consultando os dados
+SELECT * FROM usuarios;
